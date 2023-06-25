@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/umair-portfolio/static/css/main.7627eeec.css",
-    "main.js": "/umair-portfolio/static/js/main.295ab1b7.js",
+    "main.js": "/umair-portfolio/static/js/main.eccf30cd.js",
     "static/css/953.8ab9f3d4.chunk.css": "/umair-portfolio/static/css/953.8ab9f3d4.chunk.css",
     "static/js/953.f7b15279.chunk.js": "/umair-portfolio/static/js/953.f7b15279.chunk.js",
     "static/css/914.9f067da6.chunk.css": "/umair-portfolio/static/css/914.9f067da6.chunk.css",
@@ -29,7 +29,7 @@
     "static/media/modal-close.svg": "/umair-portfolio/static/media/modal-close.f61e09ce39d6407ec77f2f5e76b29448.svg",
     "static/media/toggle-light.svg": "/umair-portfolio/static/media/toggle-light.28152a5f3e52dffa94604beebe634b9b.svg",
     "main.7627eeec.css.map": "/umair-portfolio/static/css/main.7627eeec.css.map",
-    "main.295ab1b7.js.map": "/umair-portfolio/static/js/main.295ab1b7.js.map",
+    "main.eccf30cd.js.map": "/umair-portfolio/static/js/main.eccf30cd.js.map",
     "953.8ab9f3d4.chunk.css.map": "/umair-portfolio/static/css/953.8ab9f3d4.chunk.css.map",
     "953.f7b15279.chunk.js.map": "/umair-portfolio/static/js/953.f7b15279.chunk.js.map",
     "914.9f067da6.chunk.css.map": "/umair-portfolio/static/css/914.9f067da6.chunk.css.map",
@@ -46,6 +46,6 @@
   },
   "entrypoints": [
     "static/css/main.7627eeec.css",
-    "static/js/main.295ab1b7.js"
+    "static/js/main.eccf30cd.js"
   ]
 }
