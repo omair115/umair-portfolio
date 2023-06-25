@@ -7,7 +7,7 @@ import Preloader from './components/UIElements/Preloader/Preloader';
 const App = () => {
   return (
     <Suspense fallback={<Preloader />}>
-      <Router>
+      <Router basename="/umair-portfolio">
         <BaseRoutes />
       </Router>
     </Suspense>
