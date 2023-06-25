@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/umair-portfolio/static/css/main.7627eeec.css",
-    "main.js": "/umair-portfolio/static/js/main.eccf30cd.js",
+    "main.js": "/umair-portfolio/static/js/main.17881910.js",
     "static/css/953.8ab9f3d4.chunk.css": "/umair-portfolio/static/css/953.8ab9f3d4.chunk.css",
     "static/js/953.f7b15279.chunk.js": "/umair-portfolio/static/js/953.f7b15279.chunk.js",
     "static/css/914.9f067da6.chunk.css": "/umair-portfolio/static/css/914.9f067da6.chunk.css",
@@ -9,13 +9,13 @@
     "static/css/528.f610dc0d.chunk.css": "/umair-portfolio/static/css/528.f610dc0d.chunk.css",
     "static/js/528.1a2123ce.chunk.js": "/umair-portfolio/static/js/528.1a2123ce.chunk.js",
     "static/css/850.11eeca51.chunk.css": "/umair-portfolio/static/css/850.11eeca51.chunk.css",
-    "static/js/850.4de622f4.chunk.js": "/umair-portfolio/static/js/850.4de622f4.chunk.js",
+    "static/js/850.0f66231d.chunk.js": "/umair-portfolio/static/js/850.0f66231d.chunk.js",
     "static/js/787.4048b011.chunk.js": "/umair-portfolio/static/js/787.4048b011.chunk.js",
     "static/js/745.7357bcbc.chunk.js": "/umair-portfolio/static/js/745.7357bcbc.chunk.js",
     "static/js/939.30a5892f.chunk.js": "/umair-portfolio/static/js/939.30a5892f.chunk.js",
     "static/js/431.8a7b07fb.chunk.js": "/umair-portfolio/static/js/431.8a7b07fb.chunk.js",
     "static/js/484.e56fcffb.chunk.js": "/umair-portfolio/static/js/484.e56fcffb.chunk.js",
-    "static/media/Umair's CV.pdf": "/umair-portfolio/static/media/Umair's CV.61e9b538d48babf95cfe.pdf",
+    "static/media/Umair's CV.pdf": "/umair-portfolio/static/media/Umair's CV.32cdc2d3c3ddd1a3cb31.pdf",
     "service-worker.js": "/umair-portfolio/service-worker.js",
     "static/media/home-bg.jpg": "/umair-portfolio/static/media/home-bg.43a5db932e4ce89869ea.jpg",
     "static/media/about-promo.svg": "/umair-portfolio/static/media/about-promo.f48cd37cb84b2e2b9e18859657326135.svg",
@@ -29,7 +29,7 @@
     "static/media/modal-close.svg": "/umair-portfolio/static/media/modal-close.f61e09ce39d6407ec77f2f5e76b29448.svg",
     "static/media/toggle-light.svg": "/umair-portfolio/static/media/toggle-light.28152a5f3e52dffa94604beebe634b9b.svg",
     "main.7627eeec.css.map": "/umair-portfolio/static/css/main.7627eeec.css.map",
-    "main.eccf30cd.js.map": "/umair-portfolio/static/js/main.eccf30cd.js.map",
+    "main.17881910.js.map": "/umair-portfolio/static/js/main.17881910.js.map",
     "953.8ab9f3d4.chunk.css.map": "/umair-portfolio/static/css/953.8ab9f3d4.chunk.css.map",
     "953.f7b15279.chunk.js.map": "/umair-portfolio/static/js/953.f7b15279.chunk.js.map",
     "914.9f067da6.chunk.css.map": "/umair-portfolio/static/css/914.9f067da6.chunk.css.map",
@@ -37,7 +37,7 @@
     "528.f610dc0d.chunk.css.map": "/umair-portfolio/static/css/528.f610dc0d.chunk.css.map",
     "528.1a2123ce.chunk.js.map": "/umair-portfolio/static/js/528.1a2123ce.chunk.js.map",
     "850.11eeca51.chunk.css.map": "/umair-portfolio/static/css/850.11eeca51.chunk.css.map",
-    "850.4de622f4.chunk.js.map": "/umair-portfolio/static/js/850.4de622f4.chunk.js.map",
+    "850.0f66231d.chunk.js.map": "/umair-portfolio/static/js/850.0f66231d.chunk.js.map",
     "787.4048b011.chunk.js.map": "/umair-portfolio/static/js/787.4048b011.chunk.js.map",
     "745.7357bcbc.chunk.js.map": "/umair-portfolio/static/js/745.7357bcbc.chunk.js.map",
     "939.30a5892f.chunk.js.map": "/umair-portfolio/static/js/939.30a5892f.chunk.js.map",
@@ -46,6 +46,6 @@
   },
   "entrypoints": [
     "static/css/main.7627eeec.css",
-    "static/js/main.eccf30cd.js"
+    "static/js/main.17881910.js"
   ]
 }
