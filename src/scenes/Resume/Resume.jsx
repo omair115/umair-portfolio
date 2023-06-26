@@ -1,14 +1,14 @@
-import s from './Resume.module.scss';
-import { ReactComponent as FilesIcon } from '../../assets/resume-files.svg';
-import { ReactComponent as DownloadIcon } from '../../assets/download.svg';
-import { useEffect, useRef, useState } from 'react';
-import BaseLayout from '../../layouts/BaseLayout/BaseLayout';
-import LinerProgress from '../../components/UIElements/LinerProgress/LinerProgress';
-import Button from '../../components/UIElements/Button/Button';
-import resumeLink from "./../../assets/Umair's CV.pdf"
+import s from "./Resume.module.scss";
+import { ReactComponent as FilesIcon } from "../../assets/resume-files.svg";
+import { ReactComponent as DownloadIcon } from "../../assets/download.svg";
+import { useEffect, useRef, useState } from "react";
+import BaseLayout from "../../layouts/BaseLayout/BaseLayout";
+import LinerProgress from "../../components/UIElements/LinerProgress/LinerProgress";
+import Button from "../../components/UIElements/Button/Button";
+import resumeLink from "./../../assets/Umair's CV.pdf";
 //react-pdf
-import { Document, Page, pdfjs } from 'react-pdf';
-import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
+import { Document, Page, pdfjs } from "react-pdf";
+import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 // const resumeLink =
@@ -18,20 +18,18 @@ const Resume = () => {
   const pdfWrapper = useRef(null);
   const [pdfPageWidth, setPdfPageWidth] = useState(null);
   useEffect(() => {
-    setPdfPageWidth(
-      pdfWrapper.current?.getBoundingClientRect().width || null,
-    );
+    setPdfPageWidth(pdfWrapper.current?.getBoundingClientRect().width || null);
   }, []);
 
   const removeTextLayerOffset = () => {
     const textLayers = document.querySelectorAll(
-      '.react-pdf__Page__textContent',
+      ".react-pdf__Page__textContent"
     );
     textLayers.forEach((layer) => {
       const { style } = layer;
-      style.top = '0';
-      style.left = '0';
-      style.transform = '';
+      style.top = "0";
+      style.left = "0";
+      style.transform = "";
     });
   };
 
@@ -49,7 +47,7 @@ const Resume = () => {
         </div>
 
         <Button
-          style={{ margin: 'auto', width: '15rem' }}
+          style={{ margin: "auto", width: "15rem" }}
           className="primary"
           href={resumeLink}
           target="_blank"
@@ -71,6 +69,13 @@ const Resume = () => {
               loading={<LinerProgress />}
               width={pdfPageWidth}
               pageNumber={1}
+            />
+
+            <Page
+              onLoadSuccess={removeTextLayerOffset}
+              loading={<LinerProgress />}
+              width={pdfPageWidth}
+              pageNumber={2}
             />
           </Document>
         </div>
